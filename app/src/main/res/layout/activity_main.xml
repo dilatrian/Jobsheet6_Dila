@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/material_dynamic_primary40"
+        tools:ignore="DuplicateIds">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@color/material_dynamic_tertiary60">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="210dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/material_dynamic_tertiary60">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="70dp"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="485dp"
+                    android:background="@color/material_dynamic_tertiary60">
+
+                    <Button
+                        android:layout_width="178dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:text="Dila Trian Lestari"
+                        android:textColor="@color/white"/>
